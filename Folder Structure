@@ -1,0 +1,11 @@
+virtual-ta-tds-api/
+├── app/
+│   ├── main.py             # FastAPI app
+│   ├── utils.py            # OCR + RAG + search utils
+│   ├── discourse.json      # Scraped data
+│   ├── course_content.json # Manually added
+├── scrape/
+│   └── scrape_discourse.py # Scraper script
+├── requirements.txt
+├── README.md
+├── LICENSE (MIT)
